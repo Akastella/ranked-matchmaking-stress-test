@@ -1,0 +1,62 @@
+name: ruikin
+scope: annotation_calibrated_diagnostic
+random_seed: 20260517
+cv_folds: 5
+models:
+  ruikin_0:
+    type: hand_specified
+  ruikin_l:
+    type: ridge_linear
+    alpha: 1.0
+  ruikin_m:
+    type: monotonic_hist_gradient_boosting
+    max_iter: 160
+    learning_rate: 0.045
+    max_leaf_nodes: 12
+  ruikin_n:
+    type: tiny_mlp_exploratory
+    hidden_layer_sizes: [12]
+    alpha: 0.02
+    max_iter: 800
+targets:
+  perceived_unfairness_1_7: R_F
+  frustration_risk_1_7: R_A
+  progression_mismatch_salience_1_7: R_P
+  system_concern_1_7: R_C
+  acceptability_reversed_1_7: R_S
+feature_families:
+  exposure:
+    - fairness_debt_index
+    - unfair_match_exposure
+    - repeated_large_gap_exposure
+    - new_player_unfair_exposure
+    - low_activity_unfair_exposure
+    - smurf_victimization
+    - role_mismatch_rate
+    - tail_unfairness_p95
+  progression:
+    - rank_mmr_hysteresis_area
+    - mmr_rank_divergence
+  queue_system:
+    - waiting_time_proxy
+  subgroup_transfer:
+    - risk_transfer_indicator
+    - smurf_like_indicator
+    - new_player_indicator
+    - low_activity_indicator
+monotonic_positive_features:
+  - fairness_debt_index
+  - unfair_match_exposure
+  - repeated_large_gap_exposure
+  - new_player_unfair_exposure
+  - low_activity_unfair_exposure
+  - smurf_victimization
+  - role_mismatch_rate
+  - tail_unfairness_p95
+  - rank_mmr_hysteresis_area
+  - mmr_rank_divergence
+  - waiting_time_proxy
+  - risk_transfer_indicator
+  - smurf_like_indicator
+  - new_player_indicator
+  - low_activity_indicator

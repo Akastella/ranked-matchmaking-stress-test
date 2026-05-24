@@ -1,0 +1,24 @@
+\begin{table}[t]
+\centering
+\small
+\caption{Compact simulation assumption register. The full register is included in the supplement.}
+\label{tab:assumptions}
+\setlength{\tabcolsep}{4pt}
+\begin{tabularx}{\textwidth}{p{0.22\textwidth}X X}
+\toprule
+Mechanism & Implementation choice & Main limitation \\
+\midrule
+Population and horizon & Full-core uses 3000 players over 90 simulated days; robustness profiles vary scale. & Does not represent platform-scale concurrency. \\
+Activity and arrival & Heterogeneous activity rates sample queue participation. & Not a calibrated server queue. \\
+Latent skill & Synthetic skill distribution with role and context offsets. & No empirical skill calibration. \\
+Roles and scarcity & Preferred and secondary roles; stress scenarios skew availability. & Simplifies flexibility and autofill. \\
+Smurf-like mismatch & A configured fraction has high latent skill and lower initial hidden MMR. & The flag is observable only in simulation. \\
+Candidate pools & Policies select candidates from queue windows and pool-size settings. & No regional server or party queue. \\
+Team formation & 5v5 teams use role and MMR-balance objectives. & Simplifies synergy and communication. \\
+Waiting pressure & Bounded proxy derived from queue and wait settings. & Not calibrated to real seconds. \\
+Visible rank & Rank points move more slowly than hidden MMR. & Not a commercial rank formula. \\
+Exposure debt & Equal-weight index over normalized exposure channels. & Not an absolute risk metric. \\
+Rank--MMR hysteresis & Area between aligned hidden MMR and visible rank over time. & Lag is diagnostic, not automatically harmful. \\
+\bottomrule
+\end{tabularx}
+\end{table}

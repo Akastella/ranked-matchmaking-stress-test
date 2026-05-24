@@ -1,0 +1,18 @@
+\begin{table}[t]
+\centering
+\small
+\caption{Ranking stability is metric-specific: the policy that minimizes exposure debt is not the one that minimizes smurf-like exposure.}
+\label{tab:risk-transfer}
+\begin{tabularx}{\textwidth}{p{0.22\textwidth}p{0.14\textwidth}p{0.14\textwidth}p{0.14\textwidth}p{0.14\textwidth}}
+\toprule
+Metric & Policy & Mean rank & First-place rate & Worst-place rate \\
+\midrule
+fairness debt & nearest & 4.000 & 0.000 & 1.000 \\
+fairness debt & role-aware & 1.000 & 1.000 & 0.000 \\
+fairness debt & multi-objective & 2.250 & 0.000 & 0.000 \\
+smurf victimization & nearest & 1.000 & 1.000 & 0.000 \\
+smurf victimization & role-aware & 2.000 & 0.000 & 0.000 \\
+smurf victimization & multi-objective & 3.292 & 0.000 & 0.292 \\
+\bottomrule
+\end{tabularx}
+\end{table}

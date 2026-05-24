@@ -1,0 +1,18 @@
+population:
+  n_players: 420
+  latent_skill_mean: 0.0
+  latent_skill_sd: 1.0
+  role_skill_sd: 0.35
+  context_skill_sd: 0.15
+  initial_mmr_mean: 1500
+  initial_mmr_sd: 180
+  smurf_ratio: 0.06
+  new_player_ratio: 0.12
+  improving_ratio: 0.10
+  declining_ratio: 0.07
+  unstable_ratio: 0.08
+  low_activity_ratio: 0.12
+  activity_rate_mean: 0.55
+  activity_rate_sd: 0.22
+roles: [duelist, controller, initiator, sentinel, flex]
+contexts: [default, map_a, map_b, map_c]

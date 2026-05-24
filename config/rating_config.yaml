@@ -1,0 +1,30 @@
+rating:
+  initial_rating: 1500
+  scale: 400
+  base_k: 32
+  dynamic_k_min: 10
+  dynamic_k_max: 56
+  uncertainty_initial: 220
+  uncertainty_min: 45
+  uncertainty_max: 350
+  uncertainty_shrink: 0.92
+  uncertainty_growth_inactive: 8
+  volatility_initial: 0.06
+  drift_decay: 0.975
+  context_weight: 0.25
+  visible_rank_smoothing: 0.22
+  placement_matches: 10
+  seasonal_compression: 0.72
+ranks:
+  floor: 800
+  step: 100
+  names:
+    - Iron
+    - Bronze
+    - Silver
+    - Gold
+    - Platinum
+    - Diamond
+    - Ascendant
+    - Immortal
+    - Radiant

@@ -1,0 +1,13 @@
+profile_name: large_robustness_compact
+requested_profile:
+  n_players: 10000
+  days: 120
+  matches_per_day: 2000
+  seeds: 20
+compact_profile_used_this_run:
+  n_players: 1600
+  days: 30
+  matches_per_day: 240
+  seeds: [701, 702, 703, 704, 705, 706]
+policies: [nearest, role_aware, multi_objective, multi_objective_with_smurf_exposure_penalty]
+scenarios: [baseline, smurf_disruption, role_scarcity, rank_mmr_divergence]

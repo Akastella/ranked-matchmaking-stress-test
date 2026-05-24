@@ -1,0 +1,17 @@
+profile_name: stress_grid_compact
+requested_profile:
+  n_players: 5000
+  days: 90
+  matches_per_day: 1500
+  seeds: 20
+compact_profile_used_this_run:
+  n_players: 1100
+  days: 22
+  matches_per_day: 180
+  seeds: [801, 802, 803, 804]
+grid:
+  smurf_ratio: [0.0, 0.05, 0.10]
+  role_scarcity: [low, high]
+  visible_rank_smoothing: [fast, default, slow]
+  candidate_pool_size: [small, large]
+weight_sets: [default, subgroup_heavy]

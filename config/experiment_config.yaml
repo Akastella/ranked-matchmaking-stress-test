@@ -1,0 +1,22 @@
+random_seeds: [11, 23, 37]
+small_profile:
+  n_players: 420
+  days: 16
+  matches_per_day: 90
+  mode: mixed
+full_profile:
+  n_players: 3000
+  days: 90
+  matches_per_day: 900
+  mode: mixed
+sensitivity:
+  seeds: [11, 23]
+  population_sizes: [300, 600]
+  smurf_ratios: [0.02, 0.06, 0.10]
+  new_player_rates: [0.05, 0.12]
+  drift_intensities: [0.4, 1.0, 1.8]
+  role_scarcity_levels: [0.0, 0.25, 0.45]
+  fairness_weights: [0.4, 0.7, 1.0]
+output:
+  main_results: results/tables/main_results.csv
+  sensitivity_results: results/tables/sensitivity_results.csv

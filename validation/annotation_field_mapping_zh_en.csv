@@ -1,0 +1,34 @@
+﻿中文字段名,英文字段名,数据类型,是否必填,取值范围,分析用途
+标注编号,annotation_id,string,yes,free text,row identifier
+标注者编号,annotator_id,string,yes,anonymous id,rater grouping
+标注者类型,annotator_type,category,yes,listed categories,subgroup analysis
+是否有竞技游戏经验,has_competitive_game_experience,category,yes,是/否,rater description
+主要游戏类型,main_game_genre,string,no,free text,rater description
+是否玩过排位/天梯模式,has_ranked_ladder_experience,category,yes,是/否,rater description
+标注任务批次,annotation_batch,string,yes,free text,batch effects
+session_id,session_id,string,yes,session id,join key
+scenario,scenario,string,yes,scenario id,scenario analysis
+policy,policy,string,yes,policy id,policy analysis
+seed,seed,integer,yes,integer,traceability
+data_source,data_source,category,yes,human_annotation_real/synthetic_annotator_model/annotation_protocol_only,data-source isolation
+场景描述,scenario_description_zh,string,yes,text,display
+该玩家是否新玩家,new_player_indicator_zh,string,yes,text,display
+是否存在疑似小号/隐藏实力错配,smurf_like_mismatch_indicator_zh,string,yes,text,display
+是否存在角色不匹配,role_mismatch_indicator_zh,string,yes,text,display
+是否存在连续失败,loss_streak_indicator_zh,string,yes,text,display
+是否存在大实力差距,large_skill_gap_indicator_zh,string,yes,text,display
+等待时间压力,waiting_pressure_zh,string,yes,低/中/高,display
+可见段位与隐藏估计是否明显错位,rank_mmr_mismatch_indicator_zh,string,yes,text,display
+简短比赛序列摘要,session_summary_zh,string,yes,text,display
+注意：所有数据均为合成模拟数据，不是真实玩家记录,synthetic_data_notice_zh,string,yes,是,ethics boundary
+感知不公平_1_7,perceived_unfairness_1_7,integer,yes,1-7,construct alignment
+挫败风险_1_7,frustration_risk_1_7,integer,yes,1-7,construct alignment
+段位错位显著性_1_7,progression_mismatch_salience_1_7,integer,yes,1-7,hysteresis alignment
+系统关注必要性_1_7,system_concern_1_7,integer,yes,1-7,design concern
+是否可接受_1_7,acceptability_1_7,integer,yes,1-7,reverse-coded acceptability
+主要问题来源,primary_problem_source,category,yes,listed categories,qualitative channel
+判断置信度_1_7,confidence_1_7,integer,yes,1-7,quality/sensitivity
+注意力检查题,attention_check,string,yes,specified answer,quality control
+是否认真阅读,self_report_careful_reading,category,yes,是/否,quality control
+标注耗时_秒,annotation_time_seconds,number,no,positive,quality control
+备注,comment,string,no,free text,qualitative notes

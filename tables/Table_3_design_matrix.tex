@@ -1,0 +1,19 @@
+\begin{table}[t]
+\centering
+\small
+\caption{Simulation design matrix for the ranked-matchmaking stress-test protocol.}
+\label{tab:design}
+\setlength{\tabcolsep}{4pt}
+\begin{tabularx}{\textwidth}{p{0.22\textwidth}X p{0.24\textwidth}}
+\toprule
+Component & Configuration & Purpose \\
+\midrule
+Full-core profile & 3000 players; 90 days; 900 target matches/day; 10 seeds. & Main simulation campaign. \\
+Rating conditions & Elo, dynamic-K, Glicko-like, drift-aware, context-aware. & Rating-layer comparison. \\
+Team policies & Nearest-MMR, role-aware, fairness-constrained, latency-constrained, multi-objective. & Team-formation comparison. \\
+Stress scenarios & Cold start, smurf-like mismatch, skill drift, seasonal reset, role scarcity, queue pressure. & Red-team perturbations. \\
+Risk-transfer grid & Smurf ratio, latent-hidden gap, role scarcity, and objective-weight variants. & Subgroup risk transfer. \\
+Robustness grid & Population, activity skew, role scarcity, visible-rank smoothing, and candidate pool. & Ranking sensitivity. \\
+\bottomrule
+\end{tabularx}
+\end{table}

@@ -1,0 +1,16 @@
+metric,policy,mean_rank,first_place_rate,worst_place_rate,n
+fairness_debt,multi_objective,2.25,0.0,0.0,24
+fairness_debt,multi_objective_with_smurf_exposure_penalty,2.7857142857142856,0.0,0.0,28
+fairness_debt,multi_objective_without_smurf_penalty,2.0,0.0,0.0,4
+fairness_debt,nearest,4.0,0.0,1.0,28
+fairness_debt,role_aware,1.0,1.0,0.0,28
+role_mismatch_rate,multi_objective,3.0,0.0,0.0,24
+role_mismatch_rate,multi_objective_with_smurf_exposure_penalty,4.0,0.0,1.0,28
+role_mismatch_rate,multi_objective_without_smurf_penalty,3.0,0.0,0.0,4
+role_mismatch_rate,nearest,1.4285714285714286,0.5714285714285714,0.0,28
+role_mismatch_rate,role_aware,1.5714285714285714,0.42857142857142855,0.0,28
+smurf_victimization,multi_objective,3.2916666666666665,0.0,0.2916666666666667,24
+smurf_victimization,multi_objective_with_smurf_exposure_penalty,3.7142857142857144,0.0,0.7142857142857143,28
+smurf_victimization,multi_objective_without_smurf_penalty,3.25,0.0,0.25,4
+smurf_victimization,nearest,1.0,1.0,0.0,28
+smurf_victimization,role_aware,2.0,0.0,0.0,28

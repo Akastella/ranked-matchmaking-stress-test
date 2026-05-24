@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this stress-test protocol, please cite the associated manuscript."
+title: "A Synthetic Stress-Testing Protocol for Ranked Matchmaking Systems"
+authors:
+  - family-names: Mu
+    given-names: Junshan
+    orcid: "https://orcid.org/0009-0001-7509-6022"
+  - family-names: Lu
+    given-names: Yi
+type: software
+date-released: "2026-05-24"
+

@@ -1,0 +1,7 @@
+n_jobs: auto
+task_timeout_seconds: 1800
+retry_failed: 1
+result_format: parquet
+max_memory_gb: 24
+blas_threads: 1
+progress: true

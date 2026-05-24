@@ -1,0 +1,16 @@
+\begin{table}[t]
+\centering
+\small
+\caption{Restricted rating-reference verification on a small paired-match setting.}
+\label{tab:standard-reference}
+\begin{tabularx}{\textwidth}{p{0.22\textwidth}p{0.14\textwidth}p{0.14\textwidth}p{0.14\textwidth}p{0.14\textwidth}}
+\toprule
+Baseline & MAE & RMSE & Brier & Log loss \\
+\midrule
+standard glicko2 reference & 87.036 & 112.035 & 0.178 & 0.551 \\
+dynamic k & 109.068 & 141.879 & 0.190 & 0.589 \\
+glicko like internal & 119.892 & 154.872 & 0.194 & 0.602 \\
+elo & 126.386 & 162.446 & 0.197 & 0.613 \\
+\bottomrule
+\end{tabularx}
+\end{table}

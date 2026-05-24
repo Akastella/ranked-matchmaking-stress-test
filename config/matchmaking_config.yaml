@@ -1,0 +1,26 @@
+matchmaking:
+  team_size: 5
+  base_window: 75
+  window_growth_per_wait: 16
+  max_wait: 12
+  fairness_winprob_low: 0.45
+  fairness_winprob_high: 0.55
+  role_mismatch_penalty: 0.10
+  within_team_variance_weight: 0.05
+  new_player_exposure_penalty: 0.18
+  smurf_separation_penalty: 0.12
+  candidate_pool_size: 30
+multi_objective_weights:
+  fairness_loss: 0.70
+  waiting_cost: 0.18
+  role_penalty: 0.35
+  uncertainty_penalty: 0.10
+  new_player_exposure_penalty: 0.30
+policies:
+  - random
+  - nearest
+  - expanding
+  - role_aware
+  - fairness_constrained
+  - latency_constrained
+  - multi_objective
