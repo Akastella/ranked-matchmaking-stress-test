@@ -352,7 +352,7 @@ def write_identity_report(df: pd.DataFrame) -> None:
         f"- Sessions with repeated ratings: {int((sessions_per > 1).sum())}",
         "",
         "Inter-rater reliability is not estimated because the returned file has one rating row per analyzed session and no repeated rating overlap.",
-        "The rows are treated as pilot human annotation plausibility evidence, not full construct validation.",
+        "The rows are treated as pilot human annotation plausibility evidence, not as a validated construct measure.",
     ]
     (VALIDATION / "human_annotation_identity_report.md").write_text("\n".join(lines), encoding="utf-8")
 
@@ -529,7 +529,7 @@ def write_revised_report(df: pd.DataFrame, corr: pd.DataFrame) -> None:
         "",
         "The balance-only comparison is limited because the returned summary features do not contain an independent immediate win-probability-deviation field. The available proxy is reconstructed from tail-unfairness summaries and is not a substitute for the original match-balance metric.",
         "",
-        "Interpretation status: preliminary human annotation plausibility evidence. Do not claim full construct validation.",
+        "Interpretation status: preliminary human annotation plausibility evidence. Do not claim a validated construct measure.",
     ])
     (VALIDATION / "human_annotation_validity_report_revised.md").write_text("\n".join(lines), encoding="utf-8")
 

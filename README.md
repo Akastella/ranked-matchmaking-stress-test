@@ -1,6 +1,6 @@
 # Ranked Matchmaking Stress-Test Protocol
 
-This repository-ready package contains the source code, configuration files, synthetic CSV summaries, figure-generation scripts, tables, and supplementary material needed to reproduce the manuscript:
+This repository contains the source code, configuration files, synthetic CSV summaries, figure-generation scripts, tables, and supplementary material needed to reproduce the manuscript:
 
 **A Synthetic Stress-Testing Protocol for Ranked Matchmaking Systems**
 
