@@ -18,4 +18,4 @@ This supplementary package supports the manuscript "A Synthetic Stress-Testing P
 
 The main manuscript reports synthetic simulation results. The auxiliary questionnaire data consist of anonymous ratings of synthetic session summaries and do not contain real player logs or sensitive personal information. All submission figures are generated from code or editable vector sources; no generative AI artwork is used for the figures.
 
-The data and code are provided with this submission as supplementary material. An archival repository link can be provided if required by the journal.
+The synthetic simulation data, source code, configuration files, generated CSV summaries, figure-generation scripts, and supplementary materials are available in a public GitHub repository: https://github.com/mds666886/ranked-matchmaking-stress-test. Supplementary material is also provided with this submission.
