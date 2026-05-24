@@ -2,7 +2,7 @@
 
 ## Purpose
 
-This protocol documents the auxiliary pilot annotation material used to assess whether displayed synthetic-session summaries and diagnostic channels are understandable to annotators. The annotation layer is supplementary plausibility evidence only. It does not validate a construct, real player experience, telemetry behavior, real affect, or retention. The main manuscript's claims rely on the synthetic simulation protocol, verification checks, risk-transfer experiment, component diagnostics, and robustness summaries.
+This protocol documents the auxiliary pilot annotation material used to assess whether displayed synthetic-session summaries and diagnostic channels are understandable to annotators. The annotation layer is supplementary plausibility evidence only. It is not construct validation, real player-experience validation, telemetry validation, or evidence of real affect or retention. The main manuscript's claims rely on the synthetic simulation protocol, verification checks, risk-transfer experiment, component diagnostics, and robustness summaries.
 
 The pilot questionnaire used anonymous ratings of synthetic session summaries. It did not use real player records and did not collect sensitive personal information. Because no session was rated by multiple annotators, inter-rater reliability such as ICC or Krippendorff alpha is not estimable in the current pilot design. Future overlapping annotation could be used to estimate reliability.
 
