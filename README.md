@@ -6,7 +6,7 @@ This repository contains the source code, configuration files, synthetic CSV sum
 
 The simulation data are synthetic. No commercial matchmaking logs, real player telemetry, or real player records are included. The auxiliary questionnaire materials rate synthetic session summaries and are provided only as supplementary plausibility material.
 
-Public repository: https://github.com/mds666886/ranked-matchmaking-stress-test
+Public repository: https://github.com/Akastella/ranked-matchmaking-stress-test
 
 ## Contents
 
